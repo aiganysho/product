@@ -1,0 +1,86 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "shuger",
+    "description": "",
+    "category": "1",
+    "remainder": 2,
+    "price": "25.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "gfcvhj",
+    "description": "",
+    "category": "1",
+    "remainder": 2,
+    "price": "9.92"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "butter",
+    "description": "",
+    "category": "1",
+    "remainder": 1,
+    "price": "75.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "sumsung s9",
+    "description": "color white, operating system  is Android",
+    "category": "2",
+    "remainder": 1,
+    "price": "25000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "name": "tayota camry",
+    "description": "years 2016, color black",
+    "category": "3",
+    "remainder": 1,
+    "price": "10000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "name": "salt",
+    "description": "",
+    "category": "1",
+    "remainder": 4,
+    "price": "15.00"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$OFqNjMwo1qfo$G9PgKQ6lf03Wyvm2+djHHbB/AyiE3/0emzKmqh8asA0=",
+    "last_login": "2021-03-05T06:03:05.906Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-05T05:58:08.676Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
