@@ -1,7 +1,7 @@
 from django.core.validators import MinValueValidator
 from django.db import models
 
-categories = [('food', 'Продукты питания'), ('Cell phones', 'Мобильные телефоны'), ('Cars', 'Автомобили')]
+categories = [('1', 'food'), ('2','Cell_phones'), ('3', 'cars')]
 
 # Create your models here.
 class Product(models.Model):
