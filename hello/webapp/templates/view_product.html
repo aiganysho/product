@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{#{% block menu %}#}
-{#    <li><a href="{% url "list-add" %}">Create Task</a></li>#}
+{% block menu %}
+    <li><a href="{% url "add-product" %}">Create product</a></li>
 {#    <li><a href="{% url "list-update" list.id %}">Edit Task</a></li>#}
 {#    <li><a href="{% url "list-delete" list.id %}">Delete Task</a></li>#}
-{#{% endblock menu %}#}
+{% endblock menu %}
 {% block page_header %}Product: {{ product.id }}{% endblock page_header %}
 {% block content %}
 
