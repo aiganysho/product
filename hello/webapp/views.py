@@ -58,4 +58,11 @@ def product_update_view(request, pk):
             return redirect('view-product', pk=list.id)
         return render(request, 'product_update.html', context={'form': form, 'list': list})
 
+def product_delete_view(request, pk):
 
+    product = get_object_or_404(Product, id=pk)
+    if request.method == "GET":
+        return render(request, 'product_delete.html', context={'product': product})
+    elif request.method == 'POST':
+        product.delete()
+        return redirect('list-product')
