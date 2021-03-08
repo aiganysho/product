@@ -5,7 +5,7 @@ from webapp.form import ProductForm
 # Create your views here
 
 def list_product(request):
-    lists = Product.objects.all()
+    lists = Product.objects.all().exclude(remainder=0).order_by("category", "name")
     return render(request, 'list_product.html', context={'lists': lists})
 
 def view_product(request, pk):

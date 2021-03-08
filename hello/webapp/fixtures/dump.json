@@ -1,24 +1,79 @@
 [
 {
   "model": "webapp.product",
-  "pk": 3,
+  "pk": 7,
+  "fields": {
+    "name": "salt",
+    "description": "",
+    "category": "food",
+    "remainder": 2,
+    "price": "15.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
   "fields": {
     "name": "butter",
     "description": "",
-    "category": "1",
-    "remainder": 1,
+    "category": "food",
+    "remainder": 5,
     "price": "75.00"
   }
 },
 {
   "model": "webapp.product",
-  "pk": 6,
+  "pk": 9,
   "fields": {
-    "name": "salt",
-    "description": "",
-    "category": "1",
-    "remainder": 4,
-    "price": "15.00"
+    "name": "sumsung s9",
+    "description": "color white, ssd 125",
+    "category": "cell_phones",
+    "remainder": 20,
+    "price": "30000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 10,
+  "fields": {
+    "name": "headphones",
+    "description": "color black,  years 2020",
+    "category": "accessories",
+    "remainder": 15,
+    "price": "15000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 11,
+  "fields": {
+    "name": "xxx-case",
+    "description": "case for phone, color black, size 10*20",
+    "category": "accessories",
+    "remainder": 5,
+    "price": "500.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 16,
+  "fields": {
+    "name": "tttttttttttttt",
+    "description": "ijk",
+    "category": "other",
+    "remainder": 0,
+    "price": "122.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 17,
+  "fields": {
+    "name": "butter",
+    "description": "5y4435v",
+    "category": "other",
+    "remainder": 0,
+    "price": "5000.00"
   }
 },
 {
